@@ -1,0 +1,22 @@
+name: Ponal Theme
+type: theme
+description: 'Basic structure for a Bootstrap Barrio SubTheme.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap_barrio
+
+libraries:
+  - ponal_theme/bootstrap_cdn
+  - ponal_theme/global-styling
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  content_main: Content Main
+  content_second: Content second
+  footer_first: 'Footer first'
+
+# Information added by Drupal.org packaging script on 2021-10-11
+version: '5.5.4'
+project: 'bootstrap_barrio'
+datestamp: 1633918196

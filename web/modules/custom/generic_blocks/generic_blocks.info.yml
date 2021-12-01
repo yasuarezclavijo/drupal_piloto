@@ -1,0 +1,6 @@
+name: Bloques personalizados para website dummy
+type: module
+description: Modulo capaz de presentar bloques para maquetar la pagina administrativamente.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Yeison Modules

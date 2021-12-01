@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ * Incluye un template al llamado desde el theme.
+ */
+function generic_blocks_theme() {
+    return [
+        'title_block' => [
+            'variables' => [
+                'config' => NULL,
+            ],
+            'template' => 'block--titles-block'
+        ]
+    ];
+}
